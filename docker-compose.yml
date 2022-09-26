@@ -1,0 +1,24 @@
+version: "3.9"
+services:
+  mysql:
+    container_name: mysql
+    image: mysql:latest
+    environment:
+      MYSQL_DATABASE: vinelly
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3306:3306
+    volumes:
+      - ./site/res/db/vinelly.sql:/docker-entrypoint-initdb.d/vinelly.sql
+
+  phpmyadmin:
+    container_name: phpmyadmin
+    image: phpmyadmin/phpmyadmin:latest
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: root
+      PMA_PASSWORD: root
+    ports:
+      - 8080:80
+    depends_on:
+      - mysql
