@@ -36,12 +36,7 @@
     <title>Vinelly - Checkout</title>
 
     <!-- Bootstrap core CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
+    <link href="../css/common.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="../css/cart.css" rel="stylesheet">
