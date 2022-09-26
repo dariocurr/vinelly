@@ -1,6 +1,6 @@
 # vinelly
 
-![vinelly logo](docs/icon.ico)
+![vinelly logo](docs/logo.ico)
 
 Italian wine e-commerce realized using just `HTML`, `CSS` an `JS`
 
