@@ -10,6 +10,7 @@ In order to run the e-commerce, run the devcontainer and type:
 
 ```sh
 docker-compose up
+cd site
 php -S 127.0.0.1:8000
 ```
 
